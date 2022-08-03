@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ========== Calculator JavaScript ========== */
+
+h1 {
+    text-align: center;
+    padding: 23px;
+    background-color: skyblue;
+    color: white;
+}
+
+#clear {
+    width: 270px;
+    border: 3px solid gray;
+    border-radius: 3px;
+    padding: 20px;
+    background-color: red;
+}
+
+.formstyle {
+    width: 30%;
+    /* height: 530px; */
+    margin: 20px auto;
+    border: 3px solid skyblue;
+    border-radius: 5px;
+    padding: 2% 4%;
+}
+
+.calc-1 input {
+    width: 20px;
+    background-color: green;
+    color: white;
+    border: 3px solid gray;
+    border-radius: 5px;
+    padding: 26px;
+    margin: 5px;
+    font-size: 15px;
+}
+
+
+#calc {
+    width: 282px;
+    border: 5px solid black;
+    border-radius: 3px;
+    padding: 20px;
+    margin: auto;
+}
+
+/* ========== Calculator JavaScript ========== */
+
+.main-calc {
+    margin: 0 auto;
+    background: yellowgreen;
+    width: 40%;
+    border-radius: 20px;
+}
+
+.calculator {
+    margin: 40px;
+    padding: 20px;
+}
+
+.paragraph, .out {
+    font-size: 20px;
+}
+
+.distance {
+    margin: 10px 0;
+}
+
+.distance input, .btn {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.btn {
+    cursor: pointer;
+}
