@@ -50,7 +50,9 @@ h1 {
     margin: auto;
 }
 
-/* ========== Calculator JavaScript ========== */
+/* ========== Calculator JavaScript end ========== */
+
+/* ========== Calculator ========== */
 
 .main-calc {
     margin: 0 auto;
@@ -81,3 +83,5 @@ h1 {
 .btn {
     cursor: pointer;
 }
+
+/* ========== Calculator end ========== */

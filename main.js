@@ -1,3 +1,5 @@
+// ========== Calculator ========== 
+
 function calc(e) {
     e.preventDefault();
     let a = +document.querySelector('.i-1').value;
@@ -8,24 +10,23 @@ function calc(e) {
     if (sign === '+') {
         out.innerHTML = a + b;
     }
-    else if (sign == '-') {
+    else if (sign === '-') {
         out.innerHTML = a - b;
     }
-    else if (sign == '*') {
+    else if (sign === '*') {
         out.innerHTML = a * b;
     }
-    else if (sign == '/') {
+    else if (sign === '/') {
         out.innerHTML = a / b;
     }
-    else if (sign == '%') {
+    else if (sign === '%') {
         out.innerHTML = a * b / 100;
     }
     else {
         out.innerHTML = "Hi, how are you ? It's empty here or something wrong!!!";
     }
-
-    // console.log(out);
-    // console.log(a, b, sign);
 }
 
 document.querySelector('.btn').onclick = calc;
+
+// ========== Calculator end ==========
